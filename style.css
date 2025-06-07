@@ -5,4 +5,19 @@ body {
 main {
   width: 400vh;
 }
+.hearder{
+  position: relative;
+  height: 400px;
+  color: white;
+}
+.header__img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;  object-fit: cover;
+  z-index: -1;
+}
+
+
 
